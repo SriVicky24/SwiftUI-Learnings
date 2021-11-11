@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024A7B3C272A586F0090113D /* SpacetalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B3B272A586F0090113D /* SpacetalkApp.swift */; };
+		024A7B40272A58700090113D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024A7B3F272A58700090113D /* Assets.xcassets */; };
+		024A7B43272A58700090113D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024A7B42272A58700090113D /* Preview Assets.xcassets */; };
+		024A7B4A272A58EC0090113D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B49272A58EC0090113D /* HomeView.swift */; };
+		024A7B50272A5E690090113D /* ImageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B4F272A5E690090113D /* ImageTitleView.swift */; };
+		024A7B52272A5F280090113D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B51272A5F280090113D /* Theme.swift */; };
+		024A7B5A272A5FF30090113D /* Plaax-46-Ney-Bold-205TF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 024A7B56272A5FF30090113D /* Plaax-46-Ney-Bold-205TF.ttf */; };
+		024A7B5B272A5FF30090113D /* Plaax-26-Ney-Light-205TF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 024A7B57272A5FF30090113D /* Plaax-26-Ney-Light-205TF.ttf */; };
+		024A7B5D272A5FF30090113D /* Plaax-36-Ney-Regular-205TF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 024A7B59272A5FF30090113D /* Plaax-36-Ney-Regular-205TF.ttf */; };
+		024A7B61272B6DDC0090113D /* DeviceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B60272B6DDC0090113D /* DeviceItemView.swift */; };
+		024A7B63272B7E190090113D /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B62272B7E190090113D /* EmptyStateView.swift */; };
+		024A7B66272B8C040090113D /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B65272B8C040090113D /* FontModifier.swift */; };
+		024A7B68272B91180090113D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A7B67272B91180090113D /* View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024A7B38272A586F0090113D /* Spacetalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spacetalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		024A7B3B272A586F0090113D /* SpacetalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacetalkApp.swift; sourceTree = "<group>"; };
+		024A7B3F272A58700090113D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		024A7B42272A58700090113D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		024A7B49272A58EC0090113D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		024A7B4F272A5E690090113D /* ImageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleView.swift; sourceTree = "<group>"; };
+		024A7B51272A5F280090113D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		024A7B56272A5FF30090113D /* Plaax-46-Ney-Bold-205TF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Plaax-46-Ney-Bold-205TF.ttf"; sourceTree = "<group>"; };
+		024A7B57272A5FF30090113D /* Plaax-26-Ney-Light-205TF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Plaax-26-Ney-Light-205TF.ttf"; sourceTree = "<group>"; };
+		024A7B59272A5FF30090113D /* Plaax-36-Ney-Regular-205TF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Plaax-36-Ney-Regular-205TF.ttf"; sourceTree = "<group>"; };
+		024A7B60272B6DDC0090113D /* DeviceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceItemView.swift; sourceTree = "<group>"; };
+		024A7B62272B7E190090113D /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		024A7B65272B8C040090113D /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		024A7B67272B91180090113D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		024A7B69272B944D0090113D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024A7B35272A586F0090113D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024A7B2F272A586F0090113D = {
+			isa = PBXGroup;
+			children = (
+				024A7B3A272A586F0090113D /* Spacetalk */,
+				024A7B39272A586F0090113D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		024A7B39272A586F0090113D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B38272A586F0090113D /* Spacetalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		024A7B3A272A586F0090113D /* Spacetalk */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B69272B944D0090113D /* Info.plist */,
+				024A7B64272B8BF00090113D /* View Modifiers */,
+				024A7B4E272A5E4D0090113D /* Views */,
+				024A7B4B272A59E60090113D /* Extension */,
+				024A7B3B272A586F0090113D /* SpacetalkApp.swift */,
+				024A7B49272A58EC0090113D /* HomeView.swift */,
+				024A7B5E272A5FFD0090113D /* Utilities */,
+				024A7B3F272A58700090113D /* Assets.xcassets */,
+				024A7B41272A58700090113D /* Preview Content */,
+			);
+			path = Spacetalk;
+			sourceTree = "<group>";
+		};
+		024A7B41272A58700090113D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B42272A58700090113D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		024A7B4B272A59E60090113D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B51272A5F280090113D /* Theme.swift */,
+				024A7B67272B91180090113D /* View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		024A7B4E272A5E4D0090113D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B4F272A5E690090113D /* ImageTitleView.swift */,
+				024A7B60272B6DDC0090113D /* DeviceItemView.swift */,
+				024A7B62272B7E190090113D /* EmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		024A7B55272A5FF30090113D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B56272A5FF30090113D /* Plaax-46-Ney-Bold-205TF.ttf */,
+				024A7B57272A5FF30090113D /* Plaax-26-Ney-Light-205TF.ttf */,
+				024A7B59272A5FF30090113D /* Plaax-36-Ney-Regular-205TF.ttf */,
+			);
+			name = Fonts;
+			path = Spacetalk/Utilities/Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		024A7B5E272A5FFD0090113D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B55272A5FF30090113D /* Fonts */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		024A7B64272B8BF00090113D /* View Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				024A7B65272B8C040090113D /* FontModifier.swift */,
+			);
+			path = "View Modifiers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024A7B37272A586F0090113D /* Spacetalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024A7B46272A58700090113D /* Build configuration list for PBXNativeTarget "Spacetalk" */;
+			buildPhases = (
+				024A7B34272A586F0090113D /* Sources */,
+				024A7B35272A586F0090113D /* Frameworks */,
+				024A7B36272A586F0090113D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spacetalk;
+			productName = Spacetalk;
+			productReference = 024A7B38272A586F0090113D /* Spacetalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024A7B30272A586F0090113D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					024A7B37272A586F0090113D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 024A7B33272A586F0090113D /* Build configuration list for PBXProject "Spacetalk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024A7B2F272A586F0090113D;
+			productRefGroup = 024A7B39272A586F0090113D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024A7B37272A586F0090113D /* Spacetalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024A7B36272A586F0090113D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024A7B43272A58700090113D /* Preview Assets.xcassets in Resources */,
+				024A7B5A272A5FF30090113D /* Plaax-46-Ney-Bold-205TF.ttf in Resources */,
+				024A7B40272A58700090113D /* Assets.xcassets in Resources */,
+				024A7B5D272A5FF30090113D /* Plaax-36-Ney-Regular-205TF.ttf in Resources */,
+				024A7B5B272A5FF30090113D /* Plaax-26-Ney-Light-205TF.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024A7B34272A586F0090113D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024A7B4A272A58EC0090113D /* HomeView.swift in Sources */,
+				024A7B61272B6DDC0090113D /* DeviceItemView.swift in Sources */,
+				024A7B50272A5E690090113D /* ImageTitleView.swift in Sources */,
+				024A7B66272B8C040090113D /* FontModifier.swift in Sources */,
+				024A7B68272B91180090113D /* View.swift in Sources */,
+				024A7B52272A5F280090113D /* Theme.swift in Sources */,
+				024A7B3C272A586F0090113D /* SpacetalkApp.swift in Sources */,
+				024A7B63272B7E190090113D /* EmptyStateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		024A7B44272A58700090113D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024A7B45272A58700090113D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024A7B47272A58700090113D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spacetalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 37DKVB6W8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spacetalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.celestians.Spacetalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024A7B48272A58700090113D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spacetalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 37DKVB6W8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spacetalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.celestians.Spacetalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024A7B33272A586F0090113D /* Build configuration list for PBXProject "Spacetalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024A7B44272A58700090113D /* Debug */,
+				024A7B45272A58700090113D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024A7B46272A58700090113D /* Build configuration list for PBXNativeTarget "Spacetalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024A7B47272A58700090113D /* Debug */,
+				024A7B48272A58700090113D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 024A7B30272A586F0090113D /* Project object */;
+}
