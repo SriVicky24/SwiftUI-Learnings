@@ -1,0 +1,28 @@
+{
+    "status": "ok",
+    "feed": {
+        "url": "http://www.abc.net.au/news/feed/51120/rss.xml",
+        "title": "Just In",
+        "link": "https://www.abc.net.au/news/justin/",
+        "author": "",
+        "description": "",
+        "image": "https://www.abc.net.au/news/image/8413416-1x1-144x144.png"
+    },
+    "items": [
+        {
+            "title": "'This country has gone mad': Brisbane cafe owner says he won't 'discriminate' against unvaccinated customers",
+            "pubDate": "2021-11-10 00:06:15",
+            "link": "https://www.abc.net.au/news/2021-11-10/coffee-phillip-di-bella-defy-queensland-covid-vaccine-rules/100608384",
+            "guid": "https://www.abc.net.au/news/2021-11-10/coffee-phillip-di-bella-defy-queensland-covid-vaccine-rules/100608384",
+            "author": "Lucy Stone and Rebecca Levingston",
+            "thumbnail": "https://live-production.wcms.abc-cdn.net.au/ed1e041e84ebbc3dd0b0ba0b1cd760de?impolicy=wcms_crop_resize&amp;cropH=1002&amp;cropW=752&amp;xPos=576&amp;yPos=0&amp;width=862&amp;height=1149",
+            "description": "Phillip Di Bella said his stance was about not vaccination status, but entirely based on his concern that human rights were being degraded by upcoming public health order.",
+            "content": "Phillip Di Bella said his stance was about not vaccination status, but entirely based on his concern that human rights were being degraded by upcoming public health order.",
+            "enclosure": {
+                "link": "https://live-production.wcms.abc-cdn.net.au/ed1e041e84ebbc3dd0b0ba0b1cd760de?impolicy=wcms_crop_resize&amp;cropH=1002&amp;cropW=1781&amp;xPos=61&amp;yPos=0&amp;width=862&amp;height=485",
+                "type": "image/jpeg",
+                "thumbnail": "https://live-production.wcms.abc-cdn.net.au/ed1e041e84ebbc3dd0b0ba0b1cd760de?impolicy=wcms_crop_resize&amp;cropH=1002&amp;cropW=752&amp;xPos=576&amp;yPos=0&amp;width=862&amp;height=1149"
+            }
+        }
+  ]
+}
